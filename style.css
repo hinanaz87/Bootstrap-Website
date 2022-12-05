@@ -1,0 +1,376 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color: #0A2540;
+    
+    
+}
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px;
+}
+.nav-item a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    
+}
+
+.main-carousel{
+    position: relative;
+    min-height: 700px;
+    width: 100%;
+    background-color: #0A2540;
+}
+.main-carousel img{
+    height: 500px;
+    width: 500px;
+}
+.main-carousel h1{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 60px;
+    color: white;
+}
+.main-carousel p{
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+}
+.main-btn{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.main-btn2{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+
+    color: white;
+}
+.main-heading{
+    font-size: 80px !important;
+    font-weight: 600;
+}
+
+.img1{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    top: 50px;
+    left: 300px;
+}
+
+.clients{
+    background-color: lightgray;
+    padding-bottom: 50px;
+    
+}
+.clients p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.services h2{
+    margin: 100px 0;
+    font-size: 50px !important;
+    font-weight: 600;
+    color: black;
+}
+
+.experience{
+    margin: 50px 0;
+    background-color: lightgray;
+    padding: 50px;
+}
+.experience h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.para{
+    color: #1091EF;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+    padding-bottom: 50px;
+}
+.bi1{
+    font-size: 50px;
+    color: #1091EF;
+    margin-left: 5%;
+    /* width: 20px;
+    height: 20px; */
+}
+
+.service-content h3{
+    color: black;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+   
+}
+
+.service-content p{
+    color: rgb(49, 45, 45);
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+.middle-carousel h4{
+    color: #1091EF;
+    font-size: 20px;
+}
+
+.experience img{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.call{
+   min-height: 550px;
+   max-height: auto;
+    background-color: #1091EF;
+    margin-top: -50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    align-items: center;
+
+}
+.call h2{
+    font-size: 60px;
+   padding: 100px;
+   
+}
+.call p{
+    font-size: 30px;
+    font-weight: 600;
+    color: orangered;
+}
+.call button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    
+    background-color: orangered;
+    font-size: 20px
+    
+}
+.call button:hover{
+    background-color: white;
+    color: orangered;
+    border: 2px solid orangered;
+    font-weight: 600
+}
+
+.bi{
+    font-size: 50px;
+    color: #1091EF;
+    margin-left: 5%;
+    /* width: 20px;
+    height: 20px; */
+}
+.work img{
+    min-height: 100%
+}
+.work{
+    background-color: #F4F4F4;
+    padding: 60px 0;
+    text-align: center;
+}
+.work h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.work p{
+    color: #1091EF;
+    font-size: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 1.25px;
+}
+.card-text{
+    color: black !important;
+    letter-spacing: 0px !important;
+    font-size: 18px !important;
+}
+.card{
+    background-color: white;
+}
+.side-carousel{
+    background-color: white !important;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 650px;
+    max-height: max-content;
+    /* min-height: 600%;
+    max-height: max-content; */
+    background-color: #0A2540;
+    width: 100%;
+    /* position: relative; */
+}
+
+
+.main2 img{
+    height: 500px;
+    width: 500px;
+    margin: 0 20px;
+    
+}
+
+.main2 h1{
+    margin: 200px 0px 10px 100px;
+    width: 50%;
+    font-size: 60px;
+    color: white;
+}
+.main2 p{
+    margin-left: 100px;
+    width: 50%;
+    color: white;
+    font-size: 20px;
+}
+.main2 button{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.main2 .btn-primary{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    background-color: #1091EF;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid #1091EF;
+}
+
+.main2 .btn-primary:hover{
+    color: white !important;
+    background-color: #0A2540;
+}
+
+
+
+.main2 .btn-link{
+    color: #1091EF;
+    text-decoration: underline;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+    font-weight: 500;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+    margin-left: 10px;
+    
+
+}
+.main2 .btn-link:hover{
+   color: white;
+}
+
+
+.carousel-control-next-icon{
+    position: absolute;
+    right: 50px;
+}
+
+.carousel-control-prev-icon{
+    position: absolute;
+    left: -50px;
+}
+
+.carousel-control-next{
+    width: 0% !important;
+}
+
+.carousel-control-prev{
+    width: 0% !important;
+}
+
+.main1{
+    width: 100%;
+    background-color: #0A2540;
+}
+
+.exp-carousel .carousel-control-next-icon{
+    position: absolute;
+    right: 0px;
+}
+
+.exp-carousel .carousel-control-prev-icon{
+    position: absolute;
+    left: 0px;
+}
+
+
+.company-logo{
+    background-color: #0A2540;
+}
+.links{
+    font-size: 16px;
+    
+}
+.links a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.links a:hover{
+    color: #1091EF !important;
+}
+.icons .bi{
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.icons a:hover{
+    color: #1091EF;
+}
+/* .icons{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+} */
+.connect .bi{
+font-size: 20px;
+
+}
+.connect p{
+    color: white;
+    
+}
